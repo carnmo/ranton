@@ -3,7 +3,7 @@
 
 SOURCES=$(wildcard *.cpp)
 OBJECTS=$(SOURCES:.cpp=.o)
-TARGET=ranton.exe
+TARGET=ranton
 
 CXX=g++
 CXXFLAGS=-std=c++23
